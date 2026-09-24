@@ -1,15 +1,577 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jan Lazo | Portafolio Técnico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <h1>Mi portafolio</h1>
-    <p>en construccion...</p>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#inicio">Jan Lazo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir navegación">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <!--                     <li class="nav-item">
+                        <a class="nav-link" href="#perfil-profesional">Perfil profesional</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#caso-estudio">Caso de estudio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Información de contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!--             PERFIL PROFESIONAL
+ -->
+        <section id="inicio">
+            <div class="container">
+                <div class="row align-items-center min-vh-75">
+                    <div class="col-lg-8">
+                        <p class="text-uppercase small fw-bold text-secondary">
+                            Ingeniero en Informática
+                        </p>
+                        <h1 class="display-1 fw-bold mb-3">
+                            Jan Lazo
+                        </h1>
+
+                        <p class="fs-4 mb-4">
+                            Desarrollo de software · Backend · Bases de datos · Soporte TI
+                        </p>
+                        <p class="lead text-secondary mb-4">
+                            Ingeniero en informática con formación en desarrollo de software, base de datos, soporte TI
+                            y administración de sistemas.
+
+                        </p>
+
+                        <div class="d-flex gap-2 flex-wrap">
+                            <a href="#proyectos" class="btn btn-dark px-4 py-2">
+                                Ver proyectos
+                            </a>
+                            <a href="#contacto" class="btn btn-outline-dark px-4 px-2">
+                                Contacto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MI -->
+
+        <section id="sobre-mi" class="py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p class="section-label">
+                            PERFIL
+                        </p>
+                        <h2 class="display-6 fw-bold mb-4">
+                            Sobre mí
+                        </h2>
+
+                        <p>
+                            Soy ingeniero en informática y durante mi formación he desarrollado proyectos relacionados
+                            con desarrollo de software, bases de datos, soporte TI y administración de sistemas.
+                        </p>
+                        <p>
+                            Mi interes por el backend me llevó a participar en este curso de desarrollo de aplicaciones
+                            full stack Javascript en el cual aprendí sobre tecnologías como Javascript, Node.js,
+                            Express, PostgreSQL y Sequelize.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECNOLOGIAS -->
+
+        <!--         <section id="perfilProfesional">
+            <h2>Perfíl Profesional</h2>
+            <p>
+                Soy Ingeniero en Informática con formación en desarrollo de software, base de datos, redes y
+                enrutamiento,
+                administración de sistemas y analisis de datos.</p>
+            <p>He desarrollado aplicaciones y soluciones aplicando tecnologías como C#, Java, JavaScript, Node.js,
+                Express,
+                ASP.NET, SQL Server y PostgreSQL. Tambien cuento con experiencia trabajando con Linux, Docker y Git.
+            </p>
+        </section> -->
+
+        <section>
+            <div class="container py-5">
+                <p class="section-label">
+                    HERRAMIENTAS
+                </p>
+                <h2 class="display-6 fw-bold mb-5">
+                    Tecnologías
+                </h2>
+
+                <div class="row g-3">
+
+                    <!-- lenguajes -->
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="tech-card h-100">
+                            <h3 class="h5 fw-bold mb-3">
+                                Lenguajes
+                            </h3>
+                            <ul class="list-unstyled mb-0">
+                                <li>C#</li>
+                                <li>Java</li>
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="tech-card h-100">
+                            <h3 class="h5 fw-bold mb-3">
+                                Backend
+                            </h3>
+                            <ul class="list-unstyled mb-0">
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>ASP.NET</li>
+                                <li>Sequelize</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="tech-card h-100">
+                            <h3 class="h5 fw-bold mb-3">
+                                Bases de datos
+                            </h3>
+                            <ul class="list-unstyled mb-0">
+                                <li>PostgreSQL</li>
+                                <li>SQL Server</li>
+                                <li>MariaDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="tech-card h-100">
+                            <h3 class="h5 fw-bold mb-3">
+                                Herramientas
+                            </h3>
+                            <ul class="list-unstyled mb-0">
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>Docker</li>
+                                <li>Windows</li>
+                                <li>Windows Server</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="proyectos" class="py-5">
+
+            <div class="container py-5">
+                <p class="section-label">
+                    TRABAJOS REALIZADOS
+                </p>
+
+                <h2 class="display 6 fw-bold mb-3">
+                    Proyectos
+                </h2>
+
+                <p class="text-secondary mb-5 col-lg-8">
+                    Durante el curso desarrollé diferentes proyectos que permitieron aplicar progresivamente
+                    conocimientos de Node.js, Express, bases de datos y desarrollo de APIs.
+                </p>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-6">
+
+                        <article class="project-card h-100">
+
+                            <span class="project-number"> 01</span>
+
+                            <h3 class="h4 fw-bold mt-3">
+                                API Express
+                            </h3>
+
+                            <p class="text-secondary">
+                                Aplicación desarrollada con Node.js y Express para comprender la creación de servidores,
+                                rutas, controladores y middlewares.
+                            </p>
+
+                            <div class="mt-auto">
+
+                                <div class="mb-4">
+
+                                    <span class="badge text-bg-light border">
+                                        Node.js
+                                    </span>
+
+                                    <span class="badge text-bg-light border">
+                                        Express
+                                    </span>
+
+                                    <span class="badge text-bg-light border">
+                                        JavaScript
+                                    </span>
+                                </div>
+
+                                <a href="https://github.com/JanLazoP/api-express" class="text-dark fw-bold">Ver
+                                    proyecto</a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <!-- proyecto 2 -->
+                    <div class="col-lg-6">
+
+                        <article class="project-card h-100">
+
+                            <span class="project-number"> 02</span>
+
+                            <h3 class="h4 fw-bold mt-3">
+                                Evaluación módulo 6, 7 y 8
+                            </h3>
+
+                            <p class="text-secondary">
+                                Proyecto que abarca todo lo aprendido en los modulos 6, 7 y 8 partiendo con Node.js y
+                                Express, luego incorporando una base de datos con un CRUD y finalmente el manejo de
+                                rutas.
+                            </p>
+
+                            <div class="mt-auto">
+
+                                <div class="mb-4">
+
+                                    <span class="badge text-bg-light border">
+                                        Node.js
+                                    </span>
+
+                                    <span class="badge text-bg-light border">
+                                        Express
+                                    </span>
+
+                                    <span class="badge text-bg-light border">
+                                        JavaScript
+                                    </span>
+
+                                    <span class="badge text-bg-light border">
+                                        PostgreSQL
+                                    </span>
+
+                                    <span class="badge text-bg-light border">
+                                        pg
+                                    </span>
+
+                                    <span class="badge text-bg-light border">
+                                        Sequelize
+                                    </span>
+
+                                </div>
+
+                                <a href="https://github.com/JanLazoP/EvaluacionDelModulo6-7-8"
+                                    class="text-dark fw-bold">Ver
+                                    proyecto</a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <div class="col-l12">
+
+                        <article class="project-card project-featured">
+
+                            <div class="row align-items-center">
+                                <div class="col-lg-8">
+
+                                    <span class="project-number"> 03 · PROYECTO DESTACADO</span>
+
+                                    <h3 class="display-6 fw-bold mt-3">
+                                        API inventario ventas
+                                    </h3>
+
+                                    <p class="text-secondary">
+                                        API REST en la cual trabajamos todo lo aprendido durante el curso, contamos con
+                                        un html,
+                                        css para el frontend, Node.js, PostgreSQL, Express para el backend y JWT para la
+                                        seguridad mediante tokens.
+                                    </p>
+                                </div>
+
+                                <div class="col-lg-4">
+
+                                    <div class="mb-4">
+
+                                        <span class="badge bg-dark border">
+                                            Node.js
+                                        </span>
+
+                                        <span class="badge bg-dark border">
+                                            Express
+                                        </span>
+
+                                        <span class="badge bg-dark border">
+                                            JavaScript
+                                        </span>
+
+                                        <span class="badge bg-dark border">
+                                            PostgreSQL
+                                        </span>
+
+                                        <span class="badge bg-dark border">
+                                            Sequelize
+                                        </span>
+
+                                        <span class="badge bg-dark border">
+                                            JWT
+                                        </span>
+
+                                        <span class="badge bg-dark border">
+                                            Multer
+                                        </span>
+
+                                    </div>
+
+                                    <a href="https://github.com/JanLazoP/api-inventario-ventas"
+                                        class="text-light fw-bold">Ver
+                                        proyecto</a>
+
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="caso-estudio" class="bg-light py-5">
+            <div class="container py-5">
+                <p class="section-label">
+                    CASO DE ESTUDIO
+                </p>
+
+                <h2 class="display-6 fw-bold mb-3">
+                    Desarrollo de una API REST con Sequelize
+                </h2>
+
+                <p class="lead text-secondary col-lg-8 mb-5">
+                    Este proyecto representa una de los principales desafíos técnicos desarrollados durante el curso y
+                    refleja la evolución de mis conocimientos adquiridos en backend y bases de datos.
+                </p>
+
+                <div class="case-block">
+                    <h3 class="h5 fw-bold">
+                        01. Descripción
+                    </h3>
+
+                    <p>
+                        Durante el desarrollo del proyecto trabajé en la construcción de una API REST utilizando Node.js
+                        y Express, conectada a una base de datos PostgreSQL mediante Sequelize.
+                    </p>
+
+                    <p>
+                        En la etapa final se incorporó autenticación mediante JWT.
+                    </p>
+
+                </div>
+
+                <div class="case-block">
+                    <h3 class="h5 fw-bold">
+                        02. Desafío principal
+                    </h3>
+
+                    <p>
+                        El principal desafío fue integrar los diferentes conocimientos adquiridos durante el curso en
+                        una aplicación backend funcional. La definición correcta de los modelos fue una de las tareas
+                        que más tiempo me tomó, principalmente debido a las validaciones necesarias antes de enviar los
+                        valores a la base de datos, ya que algunos errores en estas validaciones podían generar
+                        problemas al momento de guardar la información.
+                    </p>
+                    <p>
+                        Otro aspecto que presento un desafío fue el manejo de las APIs y la organización de la
+                        aplicación. La modularización de controladores, modelos, validaciones, middlewares y rutas tomó
+                        bastante tiempo y concentración, ya que era necesario comprender cómo se relacionaba cada
+                        componente para lograr que todas las partes funcionaran en conjunto.
+                    </p>
+                </div>
+
+                <div class="case-block">
+                    <h3 class="h5 fw-bold">
+                        03. Solución propuesta
+                    </h3>
+
+                    <p>
+                        Para solucionar este desafío se implementaron modelos utilizando Sequelize y se definieron
+                        relaciones mediante asociaciones como <strong>hasMany</strong> y <strong>belongsTo</strong>.
+                    </p>
+                    <p>
+                        Se validó mediante middlewares que los datos sean del tipo correcto antes de ser enviados para
+                        no tener problemas con la base de datos.
+                    </p>
+                </div>
+
+                <div class="case-block">
+                    <h3 class="h5 fw-bold">
+                        04. Herramientas técnicas
+                    </h3>
+                    <p>
+                        Se utilizaron herramientas como, Node.js, Express, PostgreSQL, Sequelize, JavaScript, JWT,
+                        Multer, Git y Github.
+                    </p>
+
+                </div>
+
+
+                <div class="case-block">
+
+                    <h3 class="h5 fw-bold">
+                        05. Principales aprendizajes
+                    </h3>
+                    <p>
+                        Los principales aprendizajes que puedo rescatar del proyecto son como manejar modelos de las
+                        entidades de la base de datos mediante Sequelize y sus relaciones. Esto me ayudo a como
+                        trabajar con PostgreSQL desde Node.js
+                    </p>
+                    <p>
+                        El otro aprendizaje que agregaría es el desarrollo de las APIs REST, esto fue un trabajo muy
+                        grande pero me ayudo comprender mejor a modularizar mi código, como manejar rutas,
+                        controladores y middlewares de mi proyecto y finalmente a trabajar con autenticación
+                        mediante JWT.
+                    </p>
+
+                </div>
+
+                <div class="case-block">
+
+                    <h3 class="h5 fw-bold">
+                        06. Métricas de impacto
+                    </h3>
+                    <p>
+                        Este proyecto logra incorporar 4 modelos principales, el manejo de relaciones entre las
+                        entidades
+                        utilizando Sequelize, operaciones CRUD cada una con su archivo dedicado por entidad,
+                        autenticación
+                        mediante JWT para proteger determinadas operaciones, validaciones para cada entidad como
+                        middlewares
+                        y
+                        carga de archivos utilizando Multer para gestionarlos.
+                    </p>
+                </div>
+                <div class="case-block">
+                    <h3 class="h5 fw-bold">
+                        07. Habilidades técnicas aplicadas
+                    </h3>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li> Desarrollo backend </li>
+                                <li> APIs REST </li>
+                                <li> JavaScript y Node.js </li>
+                                <li> Express </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    PostgreSQL </li>
+                                <li>
+                                    Modelado de datos </li>
+                                <li> Sequelize </li>
+                                <li> Git y GitHub </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-block">
+                    <h3 class="h5 fw-bold">
+                        08. Justificación
+                    </h3>
+                    <p>
+                        Elegí este proyecto porque era el mas completo de los realizados en todo el curso y demuestra
+                        una evolución de mis conocimientos adquiridos.
+                    </p>
+                    <p>
+                        El proyecto me permitió integrar conocimientos que fueron trabajados incialmente de manera
+                        independiente, como Node.js, Express, PostgreSQL, APIs REST y JavaScript. Estos posteriormente
+                        fueron combinados para desarrollar una aplicación backend completa.
+                    </p>
+                    <p>
+                        Resultó un gran desafio por lo extenso que es a comparación con los demas proyectos pero muy
+                        gratificante una vez completado.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contacto" class="contact-section py-5">
+            <div class="container py-5">
+                <p class="section-label text-white">
+                    CONTACTO
+                </p>
+                <p class="text-secondary mb-4">
+                    Puedes encontrar mis proyectos y conocer más sobre mi en los siguientes medios.
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="https://github.com/JanLazoP" target="_blank" class="btn btn-outline-light">GitHub</a>
+
+                    <a href="https://www.linkedin.com/in/jan-lazo-pizarro-312382264/" target="_blank"
+                        class="btn btn-outline-light">LinkedIn</a>
+
+                    <a href="mailto:lazopizarro2121@gmail.com"
+                        class="btn btn-outline-light">lazopizarro2121@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="bg-black text-secondary text-center py-4">
+        <div class="container">
+            <small>
+                © 2026 Jan Lazo. Portafolio técnico.
+            </small>
+
+        </div>
+
+    </footer>
+
 </body>
 
 </html>

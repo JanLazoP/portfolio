@@ -1,0 +1,215 @@
+/* =========================
+   GENERAL
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #171717;
+  line-height: 1.7;
+}
+
+/* =========================
+   UTILIDADES
+========================= */
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.letter-spacing {
+  letter-spacing: 3px;
+}
+
+.section-label {
+  margin-bottom: 10px;
+
+  color: #777;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero-section {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.hero-section h1 {
+  letter-spacing: -4px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  backdrop-filter: blur(10px);
+}
+
+.nav-link {
+  color: #555 !important;
+}
+
+.nav-link:hover {
+  color: #111 !important;
+}
+
+/* =========================
+   TECNOLOGÍAS
+========================= */
+
+.tech-card {
+  padding: 30px;
+
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-3px);
+  border-color: #aaa;
+}
+
+.tech-card li {
+  margin-bottom: 7px;
+  color: #555;
+}
+
+/* =========================
+   PROYECTOS
+========================= */
+
+.project-card {
+  padding: 30px;
+
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+
+  display: flex;
+  flex-direction: column;
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #999;
+}
+
+.project-number {
+  color: #777;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.project-featured {
+  padding: 40px;
+
+  background-color: #111;
+  color: #fff;
+
+  border-color: #111;
+}
+
+.project-featured p {
+  color: #bbb;
+}
+
+.project-featured .project-number {
+  color: #888;
+}
+
+/* =========================
+   CASO DE ESTUDIO
+========================= */
+
+.case-block {
+  max-width: 850px;
+
+  padding: 35px 0;
+
+  border-top: 1px solid #ddd;
+}
+
+.case-block p {
+  color: #555;
+}
+
+.case-block li {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.case-block pre {
+  margin-top: 25px;
+  padding: 25px;
+
+  overflow-x: auto;
+
+  background-color: #111;
+  color: #eee;
+
+  border-radius: 4px;
+}
+
+/* =========================
+   MÉTRICAS
+========================= */
+
+.metric-card {
+  height: 100%;
+  padding: 25px;
+
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+}
+
+.metric-card strong {
+  display: block;
+
+  margin-bottom: 5px;
+
+  font-size: 2rem;
+  color: #111;
+}
+
+.metric-card span {
+  color: #777;
+  font-size: 0.85rem;
+}
+
+/* =========================
+   CONTACTO
+========================= */
+
+.contact-section {
+  background-color: #111;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    letter-spacing: -2px;
+  }
+
+  .project-featured {
+    padding: 30px;
+  }
+}
